@@ -1,0 +1,50 @@
+
+
+body{
+    color:red;
+   background-color: thistle;
+   
+}
+.black-border{
+border: 5px solid black;
+border-radius: 10px;
+padding-left: 10px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+font-style: italic;
+text-align: center;
+}
+
+.mid-section{
+    background-color:lightblue;
+    border: solid 3px black;
+}
+
+li.sub{
+    list-style-type:lower-alpha; border: dotted blue;
+    margin: 10px 5px 10px 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#web-dev{
+    background-color: green;border: 5px solid red;
+    padding-left: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.nav{
+    background-color:blue;
+    color: white;
+    border: 5px solid green;
+    border-radius:10px;
+    float: center;     
+ }
+
+
+.nav:hover{
+    background-color: yellow;
+    color: purple;
+}
+img{
+    border: solid 4px lightcoral;
+    border-radius: 8px;
+}

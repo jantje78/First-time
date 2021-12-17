@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+
+<body>
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <nav class="nav">
+        <a href="About.html"> Over mij</a>
+        <a href="contact.html">Contact</a>
+        <a href="Chef's.html">Chef's</a>
+        <a href="index.html">Thuis</a>
+        <a href="#">honden</a>
+    </nav>
+
+    <form name="cooking" method="POST" data-netlify="true">
+
+        <fieldset>
+            <legend>Personalia</legend>
+            <label>Naam: </label><br>
+            <input type="text" name="name"><br>
+            <label>Email: </label><br>
+            <input type="text" name="Email"><br>
+            <label>Tel.Nr. </label><br>
+            <input type="tel" name="Tel"><br>
+            <label>Leeftijd: </label><br>
+            <input type="text" name="Leeftijd"><br>
+            <label>Geboortedatum: </label><br>
+            <input type="date" name="Geboortedatum"><br>
+        </fieldset>
+        <hr>
+
+        <p>Wat is uw geslacht?</p>
+        <label><input type="radio" name="Man"> Man</label><br>
+        <label><input type="radio" name="Vrouw"> Vrouw</label><br>
+        <label><input type="radio" name="Anders"> Anders</label><br>
+        <hr>
+
+        <p>Wat is uw favoriete Keuken</p>
+        <p><label><input type="checkbox" name="Frans"> Frans</label></p>
+        <p><label><input type="checkbox" name="Italiaans"> Italiaans</label></p>
+        <p><label><input type="checkbox" name="Spaans"> Spaans</label></p>
+        <p><label><input type="checkbox" name="Arabisch"> Arabisch</label></p>
+        <hr>
+
+        <p><label> Kies de kleur van uw schort<input type="color" name="kleurkiezer"></label></p>
+        <hr>
+
+        <label>Schrijf iets over uzelf</label>
+        <p><textarea name="Biografie" id="Biografie" cols="30" rows="10"></textarea></p>
+        <hr>
+
+        <p>Upload hier uw laatst geschreven recept.</p>
+        <input type="file" name="recept">
+        <hr>
+
+        <p><label>Voeg hier uw website toe</label></p>
+        <input type="url" name="website">
+
+        <p><label>Reset al uw antwoorden</label></p>
+        <input type="reset" name="reset" value="reset">
+        <hr>
+
+        <p><label>Verstuur uw antwoorden</label></p>
+        <button type="submit">Send</button>
+        <hr>
+    </form>
+</body>

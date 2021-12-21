@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #dca62c;
+    width: 100%;
+    border: 3px solid #172238;
+    border-radius: 10px;
+}
+
+.nav-top img{
+    border: solid 3px #172238;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 0;
+    
+}
+.nav-top a :hover{
+    opacity:0.3;
+}
+.nav-top{
+    margin: 5px 20px 
+}
+body{
+    background-color: #f8f4e4;
+}
+
+article{
+    border: #172238 solid 3px;
+    border-radius: 10px;
+    display:block;
+    overflow:auto;
+    width: 200px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+    
+    float: left;
+    
+}
+
+.words{
+    border: #172238 solid 3px;
+    line-height: 110%;
+    border-radius: 10px;
+    display: inline;
+    margin:20px 20px 100px 20px; 
+    padding: 10px;
+    width: 150px;
+    height: 300px;
+    overflow: auto;
+    float: right;
+    
+}
+img.img-1{
+    display: inline;
+    border: 3px solid #172238; border-radius: 10px;
+    margin-left: 20px;
+   
+}
+.form{
+    border: #172238 3px solid;
+    display: block;
+    float:left;
+    margin: 20px 20px
+}
+
+footer {
+    margin-left: 0;
+    width: 100%;
+    text-align:left;
+    padding: 3px;
+    border: 2px solid #172238;
+    background-color:#2c6ec4;
+    color: white;margin-top: 350px;
+     }
+
+     @media (min-width: 1024px) {
+        body{
+            background-color:#dca62c;
+            color: white;
+            font-size:smaller;
+            line-height: 200%;
+        }
+    }
+     
+    @media (min-width: 1024px) {
+        .words{
+            border: yellow solid 5px;
+            line-height: 110%;
+            border-radius: 50px;
+            display: inline;
+            margin:20px 20px 100px 20px; 
+            padding: 50px;
+            width: 50%;
+            height: 300px;
+            overflow: auto;
+            float: right;
+            
+        }
+    }
